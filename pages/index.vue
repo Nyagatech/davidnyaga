@@ -12,7 +12,7 @@
     <div class="px-4 my-6 md:w-1/2 md:mx-auto">
       <p class="my-4">I’m David, a fullstack developer and entrepreneur based in Kenya. I’m
         the creator of Spire Rentals, a platform that allows property owners to manage their apartments.</p>
-      <p class="my-4">My main tools of trade are Nuxt.Js, Vue.Js, and Laravel. I am proficient in both frontend and
+      <p class="my-4">My main tools of trade are Nuxt.Js, Vue.Js, Tailwind CSS and Laravel. I am proficient in both frontend and
         backend development, and my only code editor is VS Code. Yes, I am a full-time V-coder!</p>
         <p class="my-4">
           Outside work, I play chess and read chess books. I am a big fan of Jobavo London System for white and the Caro Kann Defense for black. My elo rating on Lichess is around <span class="text-slate-600">1700+</span>. But I am striving to get to <span class="text-slate-600">2000+</span>.
