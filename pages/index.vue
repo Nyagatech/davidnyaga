@@ -19,8 +19,19 @@
         </p>
         <p class="my-4">Why am I building this portfolio? I want it to be my personal online journal. And I am happy to have you as my guest!</p>
    <div>
-     
+    <a href="https://github.com/Nyagatech"><Icon name="uil:github" class="text-slate-600 w-6 h-6 my-4 mx-4"/></a>
+   <a href="www.linkedin.com/in/david-nyaga-3a5a13247"> <Icon name="uil:linkedin" class="text-slate-600 w-6 h-6 my-4 mx-4"/></a>
    </div>
+   <footer>
+    <hr class="border-gray-900 mt-10">
+    <p class="px-4 my-4 text-gray-600 text-center">
+  &copy; {{ new Date().getFullYear() }} -
+  {{ new Date().toLocaleString('default', { month: 'long' }) }} 
+  {{ new Date().getDate() }} 
+  {{ new Date().toLocaleTimeString() }}
+</p>
+
+   </footer>
       </div>
   </div>
 </template>
