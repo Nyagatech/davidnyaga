@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-slate-950 text-white h-screen">
+  <div>
      <NuxtPage />
   </div>
 </template>
 <style scoped>
-
+ 
 </style>
