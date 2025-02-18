@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto border-x border-gray-900">
+  <div class="container mx-auto border-x border-gray-900 bg-slate-950">
     <div class="flex justify-center">
       <Navbar />
     </div>
@@ -9,7 +9,7 @@
     <div>
       <h1 class="text-slate-600 font-bold text-2xl px-4 my-6">FullStack Developer and <br> Internet Entrepreneur.</h1>
     </div>
-    <div class="text-gray-800 px-4 my-6 md:w-1/2 md:mx-auto">
+    <div class="px-4 my-6 md:w-1/2 md:mx-auto">
       <p class="my-4">I’m David, a fullstack developer and entrepreneur based in Kenya. I’m
         the creator of Spire Rentals, a platform that allows property owners to manage their apartments.</p>
       <p class="my-4">My main tools of trade are Nuxt.Js, Vue.Js, and Laravel. I am proficient in both frontend and
@@ -22,16 +22,7 @@
     <a href="https://github.com/Nyagatech"><Icon name="uil:github" class="text-slate-600 w-6 h-6 my-4 mx-4"/></a>
    <a href="www.linkedin.com/in/david-nyaga-3a5a13247"> <Icon name="uil:linkedin" class="text-slate-600 w-6 h-6 my-4 mx-4"/></a>
    </div>
-   <footer>
-    <hr class="border-gray-900 mt-10">
-    <p class="px-4 my-4 text-gray-600 text-center">
-  &copy; {{ new Date().getFullYear() }} -
-  {{ new Date().toLocaleString('default', { month: 'long' }) }} 
-  {{ new Date().getDate() }} 
-  {{ new Date().toLocaleTimeString() }}
-</p>
-
-   </footer>
+   <Footer />
       </div>
   </div>
 </template>
